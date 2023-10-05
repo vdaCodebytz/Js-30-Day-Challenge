@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+}
+
+.box{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 42vh 20px;
+    color: aliceblue;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: rgba(168, 168, 168, 0.315);
+    
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.playing{
+    border: 3px solid rgb(213, 178, 0);
+}
